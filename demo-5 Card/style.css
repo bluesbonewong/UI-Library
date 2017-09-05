@@ -1,0 +1,50 @@
+.box .card-1 {
+	width: 300px;
+	height: 398px;
+	margin: 30px auto;
+	-webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box .card-1 img {
+	width: 300px;
+	height: 300px;
+	opacity: 0.8;
+	display: block;
+}
+
+.box .text {
+	margin: 0 16px;
+}
+
+.box .card-1 p:nth-of-type(1) {
+	font: bold 20px/22px Song;
+	margin: 15px 0;
+}
+
+.box .card-1 p:nth-of-type(2) {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.box .card-2 {
+	width: 300px;
+	height: 261px;
+	margin: 30px auto;
+	-webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box .card-2 img {
+	width: 300px;
+	height: 200px;
+	opacity: 0.8;
+	display: block;
+}
+.box .card-2 p:nth-of-type(1) {
+	text-align: center;
+	margin: 19px 0;
+}

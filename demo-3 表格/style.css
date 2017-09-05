@@ -1,0 +1,29 @@
+.table {
+	margin: 40px auto;
+	border-collapse: collapse;/*使得边框变为单线条，然后还要用border设置其他元素*/
+	width: 50%;
+	font: 20px/40px Arial;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+.table th {
+	padding:0 10px;
+	font-weight: normal;/*th默认的是bold*/
+}
+.table tr {
+	border-bottom: 1px solid #ccc;
+	height: 40px;
+}
+.table .table-head1 {
+	background: #4CAF50;
+	color:white;
+}
+.table .table-head1 th,.table .table-head2 th {
+	font-weight: bold;
+}
+.table tbody tr:nth-last-of-type(odd) {
+	background: #ddd;
+}
+.table.table-2 {
+	border: none;
+}

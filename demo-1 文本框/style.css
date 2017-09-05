@@ -1,0 +1,37 @@
+.box {
+	width: 566px;
+	height: 80px;
+	padding: 1px 16px;
+	margin: 30px auto;
+}
+
+.box p {
+	margin: 18px 0;
+}
+
+.box1 {
+	border: 1px solid #ccc;
+}
+
+.box2 {
+	background: pink;
+	border-left: 6px solid red;
+	border-right: 7px solid red;
+	padding: 1px 11px 1px 10px;
+}
+
+.box3 {
+	background: #fffabf;
+	border-top: 6px solid yellow;
+	border-bottom: 7px solid yellow;
+	padding: 1px 17px;
+}
+
+.box4 {
+	border-top: 1px solid #4CAF50;
+	border-right: 1px solid #4CAF50;
+	border-bottom: 7px solid #4CAF50;
+	border-left: 1px solid #4CAF50;
+	background: #e7ffe7;
+	padding: 1px 17px;
+}

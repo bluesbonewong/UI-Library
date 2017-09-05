@@ -1,0 +1,48 @@
+.box {
+	width: 0;
+	height: 0;
+	margin: 20px 10px;
+}
+
+.box1 {
+	border-top:20px solid blue;
+	border-right:20px solid yellow;
+	border-bottom:20px solid green;
+	border-left:20px solid red;
+}
+.box2 {
+	border-top:20px solid blue;
+	border-right:20px solid transparent;
+	border-bottom:20px solid transparent;
+	border-left:20px solid transparent;
+}
+.box3 {
+	border-top:20px solid transparent;
+	border-right:20px solid transparent;
+	border-bottom:20px solid transparent;
+	border-left:20px solid red;
+}
+.box4 {
+	border-top:20px solid transparent;
+	border-right:20px solid yellow;
+	border-bottom:20px solid transparent;
+	border-left:20px solid transparent;
+}
+.box5 {
+	border-top:20px solid transparent;
+	border-right:20px solid transparent;
+	border-bottom:20px solid green;
+	border-left:20px solid transparent;
+}
+.box6 {
+	border-top:20px solid transparent;
+	border-right:20px solid transparent;
+	border-bottom:20px solid red;
+	border-left:20px solid red;
+}
+.box7 {
+	border-top:20px solid transparent;
+	border-right:20px solid green;
+	border-bottom:20px solid green;
+	border-left:20px solid transparent;
+}
