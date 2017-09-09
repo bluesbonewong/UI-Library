@@ -1,0 +1,43 @@
+
+.box {
+	margin: 30px auto;
+	width: 600px;
+	border-radius: 4px;
+	position: relative;
+}
+
+.box.box1 {
+	background: #4CAF50;
+}
+.box.box2 {
+	background: skyblue;
+}
+.box.box3 {
+	background: orangered;
+}
+.box.box4 {
+	background: orange;
+}
+
+.icon-x {
+	color: #ffffff;
+	font: normal bold 24px/100% Arial;
+	position: absolute;
+	right: 8px;
+	top: 2px;
+}
+
+.wrap {
+	padding: 20px 0;
+}
+
+.header {
+	margin: 0 0 15px 20px;
+	color: #ffffff;
+}
+
+.text {
+	margin: 15px 0 0 20px;
+	color: #ffffff;
+}
+

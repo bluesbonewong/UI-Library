@@ -1,0 +1,75 @@
+input,textarea {
+	outline: none;
+}
+
+.wrap {
+	width: 600px;
+	margin: 20px auto;
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header {
+	padding: 10px 20px;
+	margin: 0;
+	color: #ffffff;
+	background: #009688;
+}
+
+#form {
+	padding: 20px 20px;
+	width: 560px;
+}
+
+#form label {
+	color: #757575;
+}
+
+#form .input-border {
+	display: block;
+	width: 100%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #808080;
+	margin: 10px 0 15px 0;
+}
+
+#words textarea {
+	display: block;
+	height: 80px;
+	width: 100%;
+	max-width: 100%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #808080;
+	margin: 10px 0 15px 0;
+}
+
+#hobby, #sex {
+	float: left;
+	width: 50%;
+}
+
+.bfcclearfloat {
+	overflow: hidden;
+}
+
+#submit {
+	display: block;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	vertical-align: middle;
+	margin-top: 1px;
+}
+
+form input[type="submit"] {
+	border: none;
+	background: #009688;
+	padding: 10px 16px;
+	margin: 20px 0 0 0;
+	color: #ffffff;
+}
+
+

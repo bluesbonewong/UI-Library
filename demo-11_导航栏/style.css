@@ -1,0 +1,60 @@
+ul,li {
+	list-style: none;
+	padding-left:0px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.navigation {
+	width:40%;
+	margin:0 auto;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+	background: #eeeeee;
+}
+
+.clearfix:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.clicklabel {
+	float: left;
+	position: relative;
+}
+
+.clicklabel a {
+	display: block;
+	padding:10px 20px;
+}
+
+.clicklabel a:hover {
+	background: #cccccc;
+}
+
+.navigation .displayblock {
+	display: none;
+	position: absolute;
+	top:100%;
+	left:0;
+	background: #ffffff;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+}
+
+.navigation .displayblock .hiddenlabel {
+	display: block;
+	padding:5px 80px 5px 20px;
+}
+
+.navigation .displayblock .hiddenlabel:hover {
+	background: #cccccc;
+}
+
+.clicklabel3:hover .displayblock {
+	display: block;
+}
+/*从这个选择器来看，可以知道我的见识是多么的鄙薄了*/
+/*完全可以实现js的效果*/

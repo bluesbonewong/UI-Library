@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ch">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>alert</title>
+</head>
+<body>
+<div class="wrap">
+	<h1 class="header">
+		信息收集表
+	</h1>
+	<form action="xxx" method="post" id="form">
+		<div id="username">
+			<label for="username">姓名</label>
+			<input type="text" name="username" class="input-border">
+		</div>
+		<div id="qq">
+			<label for="qq">QQ</label>
+			<input type="text" name="qq-number" class="input-border">
+		</div>
+		<div id="words">
+			<label for="words">要说的话</label>
+			<textarea name="words"></textarea>
+		</div>
+		<div class="bfcclearfloat">
+			<div id="hobby">
+				<div><input type="checkbox" name="hobby" value="Milk" id="milk" checked="checked">
+					<label for="milk">Milk</label>
+				</div>
+				<div><input type="checkbox" name="hobby" value="Sugar" id="sugar">
+					<label for="sugar">Sugar</label>
+				</div>
+				<div><input type="checkbox" name="hobby" value="Lemon" id="lemon">
+					<label for="lemon">Lemon</label>
+				</div>
+			</div>
+			<div id="sex">
+				<div><input type="radio" name="sex" value="male" id="male" checked="checked">
+					<label for="male">Male</label>
+				</div>
+				<div><input type="radio" name="sex" value="female" id="female">
+					<label for="female">Female</label>
+				</div>
+			</div>
+		</div>
+		<input type="submit" name="submit" value="提交">
+	</form>
+</div>
+</body>
+</html>

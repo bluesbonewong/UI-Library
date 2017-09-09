@@ -1,0 +1,40 @@
+html, body, .container {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.container {
+	background: rgba(0, 0, 0, 0.4);
+	padding: 1px 30%;
+}
+
+.content {
+	position: absolute;
+	width: 600px;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -125px;
+}
+
+.content .header,.footer {
+	background: #009688;
+	padding: 20px 20px;
+	margin:0;
+	color: #ffffff;
+}
+
+.content .close {
+	color: #ffffff;
+	position: absolute;
+	right:10px;
+	top: 5px;
+}
+
+.content .text {
+	padding: 10px 20px;
+	margin:0;
+	background: #ffffff;
+}
