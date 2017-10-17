@@ -4,8 +4,8 @@ var frameNode = document.querySelector('#frame')
 var bodyNode = document.querySelector('body')
 
 function closeFrame() {
-	frameNode.className = ''
-	bodyNode.className = ''
+	frameNode.removeAttribute('class')
+	bodyNode.removeAttribute('class')
 }
 
 btnNode.addEventListener('click', function (e) {
@@ -18,7 +18,7 @@ frameBtnNodes[0].addEventListener('click', closeFrame)
 frameBtnNodes[1].addEventListener('click', closeFrame)
 bodyNode.addEventListener('click', function (e) {
 	if (e.target.tagName.toLowerCase() === 'body') {
-		frameNode.className = ''
-		bodyNode.className = ''
+		frameNode.removeAttribute('class')
+		bodyNode.removeAttribute('class')
 	}
 })
