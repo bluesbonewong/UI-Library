@@ -1,0 +1,44 @@
+body, li, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.click {
+	background: lightgrey;
+}
+
+#container .content .display {
+	display: block;
+}
+
+#container {
+	max-width: 30%;
+	border: 1px solid lightgrey;
+	margin: 20px auto;
+}
+
+#container .tabbar {
+	display: flex;
+	text-align: center;
+}
+
+#container .tabbar > li {
+	flex-grow: 1;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+#container .tabbar > li:last-child {
+	border-right: none;
+}
+
+#container .content {
+	position: relative;
+}
+
+#container .content > li {
+	padding: 10px;
+	height:100px;
+	display: none;
+}
